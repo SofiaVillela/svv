@@ -1,7 +1,7 @@
 all: banker
 
-banker: banker.c
-	gcc -o banker banker.c
+banker: main.c entrada.c entrada.h
+	gcc -o banker main.c entrada.c
 
 clean:
 	rm -f banker result.txt
