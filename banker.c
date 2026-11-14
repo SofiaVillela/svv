@@ -38,5 +38,29 @@ int main(int argc, char **argv) {
         }
         available[i] = valor;
     }
+
+    FILE *file = fopen("customer.txt", "r");
+    if (file == NULL) {
+        fprintf(stderr,"Erro arquivo não encontrado ou não foi possível abrir.\n");
+        free(available);
+        return 1;
+    }
+    
+
+    char linha[1000]; //lembrar: fgets(variavel, tamanho, arquivo);
+    int contadorClientes =0;
+    while (fgets(linha, sizeof(linha), file) != NULL) {
+        linha[strcspn(linha, "\r\n")] = '\0';
+        if (linha[0] == '\0') {
+            continue;
+        }
+        contadorClientes++;
+        printf("%s\n", linha);
+    }
+    printf("quantidade client: %d\n", contadorClientes);
+    if(contadorClientes == 0){
+        fprintf(stderr, "Erro o arquivo está vazio ou só tem linhas em branco")
+    }
+    fclose(file)
     return 0;
 }
