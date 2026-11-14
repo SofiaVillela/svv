@@ -1,0 +1,50 @@
+Script started on 2026-11-14 18:13:42-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="79" LINES="12"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ name[K[K[K[Kwhoami
+[?2004lsofiavillela
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ fa[K[Kdate
+[?2004lSat Nov 14 18:13:50 -03 2026
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ pwd
+[?2004l/home/sofiavillela/svv/svv
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-14 18:13:54-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-14 19:21:15-03:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="121" LINES="12"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker[27m./banker
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker; echo "exit: $?"[27m./banker; echo "exit: $?"
+[?2004lexit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker 10 5 7; echo "exit: $?"[27m./banker 10 5 7; echo "exit: $?"
+[?2004lexit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker 10 abc 7; echo "exit: $?"[27m./banker 10 abc 7; echo "exit: $?"
+[?2004lexit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker 10abc 5 7; echo "exit: $?"[27m./banker 10abc 5 7; echo "exit: $?"
+[?2004lexit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker 10 -5 7; echo "exit: $?"[27m./banker 10 -5 7; echo "exit: $?"
+[?2004lexit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker 10 "" 7; echo "exit: $?"[27m./banker 10 "" 7; echo "exit: $?"
+[?2004lexit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker 0 5 7; echo "exit: $?"[27m./banker 0 5 7; echo "exit: $?"
+[?2004lexit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7mmake clean && make[27mmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker banker.c
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker; echo "exit: $?"[27m./banker; echo "exit: $?"
+[?2004lErro: numero de argumentos invalido
+exit: 1
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker 10 5 7; echo "exit: $?"[27m./banker 10 5 7; echo "exit: $?"
+[?2004lexit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker 10 abc 7; echo "exit: $?"[27m./banker 10 abc 7; echo "exit: $?"
+[?2004lErro: abc não é um número.
+exit: 1
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker 10abc 5 7; echo "exit: $?"[27m./banker 10abc 5 7; echo "exit: $?"
+[?2004lErro: '10abc' contém texto após o número.
+exit: 1
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker 10 -5 7; echo "exit: $?"[27m./banker 10 -5 7; echo "exit: $?"
+[?2004lErro: -5 é um número negativo.
+exit: 1
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker 10 "" 7; echo "exit: $?"[27m./banker 10 "" 7; echo "exit: $?"
+[?2004lErro:  não é um número.
+exit: 1
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker 0 5 7; echo "exit: $?"[27m./banker 0 5 7; echo "exit: $?"
+[?2004lexit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/
