@@ -1,27 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "entrada.h"
+#include "banqueiro.h"
 
 int main(int argc, char **argv) {
     if (argc < 2) {
         fprintf(stderr, "Erro: numero de argumentos invalido\n");
         return 1;
     }
-    int quantidadeTipoRecurso = argc - 1;
+   
+    
+    Banco banco;
+    banco.maximum = banco.allocation = banco.need = NULL;
+    banco.numeroDeRecursos = argc - 1;
 
-    int *available = lerArgumentos(argc, argv);
-    if (available == NULL) {
+    banco.available = lerArgumentos(argc, argv);
+    if (banco.available == NULL) {
         return 1;
     }
 
-    int quantidadeClientes = contarClientes("customer.txt",quantidadeTipoRecurso);
-    if (quantidadeClientes == -1) {
-        free(available);
+    banco.numeroDeClientes= contarClientes("customer.txt",banco.numeroDeRecursos);
+    if (banco.numeroDeClientes == -1) {
+        free(banco.available);
+        return 1;
+    }
+    if(alocarMatrizes(&banco) == 1) {
+        free(banco.available);
         return 1;
     }
 
-    printf("recursos: %d | clientes: %d\n", quantidadeTipoRecurso, quantidadeClientes);
-
-    free(available);
+    liberarBanco(&banco);
     return 0;
 }
