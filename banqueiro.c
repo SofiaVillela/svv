@@ -110,7 +110,7 @@ int estadoSeguro(Banco *banco){
                     work[j] = work[j] + banco->allocation[i][j];
                 }
                 finish[i] = 1;
-                alguemTerminou = 1;
+                alguemTerminou =1 ;
             }
         }
     }
@@ -125,4 +125,34 @@ int estadoSeguro(Banco *banco){
     free(finish);
    
     return retornar;
+}
+
+int request(Banco *banco, int idCliente, int *recursosPedidos){
+    for(int j = 0; j < banco->numeroDeRecursos; j++){
+        if(recursosPedidos[j] > banco->need[idCliente][j]){
+            return 1;
+
+        }
+    }
+    for(int j = 0; j < banco->numeroDeRecursos; j++){
+        if(recursosPedidos[j] > banco->available[j]){
+            return 2;
+
+        }
+    }
+
+    for(int j = 0; j < banco->numeroDeRecursos; j++){
+        banco->available[j] = banco->available[j] - recursosPedidos[j];
+        banco->allocation[idCliente][j] = banco->allocation[idCliente][j] + recursosPedidos[j];
+        banco->need[idCliente][j] = banco->need[idCliente][j] -recursosPedidos[j];
+    }
+
+    if(estadoSeguro(banco) == 1) return 0;
+    
+    for(int j = 0; j < banco->numeroDeRecursos; j++){
+        banco->available[j] = banco->available[j] + recursosPedidos[j];
+        banco->allocation[idCliente][j] = banco->allocation[idCliente][j] - recursosPedidos[j];
+        banco->need[idCliente][j] = banco->need[idCliente][j] + recursosPedidos[j];
+    }
+    return 3;
 }

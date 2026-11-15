@@ -430,3 +430,1155 @@ exit: 1
 [?2004lexit
 
 Script done on 2026-11-15 09:56:30-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-15 10:22:14-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="139" LINES="35"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ git pushcommit -m "feat: valida commands.txt"add entrada.c entrada.h main.c evidencias.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pscript -a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pgit pushsu[Ccommit -m "feat: adiciona struct Banco e alocação das matrizes"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Padd main.c banqueiro.c banqueiro.h Makefile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pscript -a evidencias.logexit[K./banker 10 5 7; echo "exit: $?"[14Pmake clean && make./banker 10 5 7; echo "exit: $?"[14Pmake clean && make./banker 10 5 7; echo "exit: $?"[14Pmake clean && make[8PXX 0 1 2 3[6Pdatevalgrind --leak-check=full ./banker 10 5 7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push[Kcommit -m "feat: preenche matrizes maximum, allocation e need"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Padd main.c entrada.c entrada.h[2P./banker 10 5 7; echo "exit: $?"[14Pmake clean && makeexit[K./banker 10 abc 7; echo "exit: $?"[2P5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pmake clean && make./banker 10 5 7; echo "exit: $?"[2@abc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kmake clean && make./banker 10 5 7; echo "exit: $?"git add main.c entrada.c entrada.hcommit -m "feat: preenche matrizes maximum, allocation e need"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush[Kvalgrind --leak-check=full ./banker 10 5 7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdate[KXX 0 1 2 3make clean && make./banker 10 5 7; echo "exit: $?"[14Pmake clean && make./banker 10 5 7; echo "exit: $?"[14Pmake clean && make./banker 10 5 7; echo "exit: $?"exit[Kscript -a evidencias.loggit add main.c banqueiro.c banqueiro.h Makefilecommit -m "feat: adiciona struct Banco e alocação das matrizes"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpsuh[Kus[Cscript -a evidencias.log[25@git add entrada.c entrada.h main.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcommit -m "feat: valida commands.txt"push[K[Kwhoami
+[?2004lsofiavillela
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ fa[K[Kdate
+[?2004lSun Nov 15 10:22:28 -03 2026
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ pwd
+[?2004l/home/sofiavillela/svv/svv
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ pwddatewhoamigit pushcommit -m "feat: valida commands.txt"add entrada.c entrada.h main.c evidencias.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pscript -a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pgit pushsu[Ccommit -m "feat: adiciona struct Banco e alocação das matrizes"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Padd main.c banqueiro.c banqueiro.h Makefile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pscript -a evidencias.logexit[K./banker 10 5 7; echo "exit: $?"[14Pmake clean && make./banker 10 5 7; echo "exit: $?"[14Pmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && makepwd[Kdatewhoamigit pushcommit -m "feat: valida commands.txt"add entrada.c entrada.h main.c evidencias.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pscript -a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pgit pushsu[Ccommit -m "feat: adiciona struct Banco e alocação das matrizes"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Padd main.c banqueiro.c banqueiro.h Makefile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pscript -a evidencias.logexit[K./banker 10 5 7; echo "exit: $?"[14Pmake clean && make./banker 10 5 7; echo "exit: $?"
+[?2004lexit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ ./banker 10 5 7; echo "exit: $?"[14Pmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && make./banker 10 5 7; echo "exit: $?"
+[?2004l 10 5 7 0 0 0 0 0exit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ ./banker 10 5 7; echo "exit: $?"[14Pmake clean && make./banker 10 5 7; echo "exit: $?"[14Pmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && make./banker 10 5 7; echo "exit: $?"
+[?2004lcliente nao cabecliente nao cabecliente nao cabecliente nao cabecliente nao cabeexit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ ./banker 10 5 7; echo "exit: $?"[14Pmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[01m[Kbanqueiro.c:[m[K In function ‘[01m[KestadoSeguro[m[K’:
+[01m[Kbanqueiro.c:106:30:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K[01;32m[K%d[m[K[m[K’ expects a matching ‘[01m[K[01;32m[Kint[m[K[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-Wformat=]8;;[m[K]
+  106 |             printf("cliente [01;32m[K%[m[K[01;32m[Kd[m[K cabe\n");
+      |                             [01;32m[K~[m[K[01;32m[K^[m[K
+      |                              [01;32m[K|[m[K
+      |                              [01;32m[Kint[m[K
+[01m[Kbanqueiro.c:107:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K[01;32m[K%d[m[K[m[K’ expects a matching ‘[01m[K[01;32m[Kint[m[K[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-Wformat=]8;;[m[K]
+  107 |         }else printf("cliente [01;32m[K%[m[K[01;32m[Kd[m[K nao cabe\n");
+      |                               [01;32m[K~[m[K[01;32m[K^[m[K
+      |                                [01;32m[K|[m[K
+      |                                [01;32m[Kint[m[K
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && make./banker 10 5 7; echo "exit: $?"
+[?2004lcliente 0 cabe
+cliente 1 cabe
+cliente 2 cabe
+cliente 3 cabe
+cliente 4 cabe
+exit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ ./banker 10 5 7; echo "exit: $?"[14Pmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:40:5:[m[K [01;31m[Kerror: [m[Kimplicit declaration of function ‘[01m[Kprint[m[K’; did you mean ‘[01m[Kprintf[m[K’? [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+   40 |     [01;31m[Kprint[m[K(" %d \n", teste);
+      |     [01;31m[K^~~~~[m[K
+      |     [32m[Kprintf[m[K
+make: *** [Makefile:4: banker] Error 1
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && make./banker 10 5 7; echo "exit: $?"[14Pmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && make./banker 10 5 7; echo "exit: $?"
+[?2004l 1 
+exit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-15 10:45:08-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-15 11:15:10-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="121" LINES="14"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ exit./banker 10 5 7; echo "exit: $?"[14Pmake clean && make./banker 10 5 7; echo "exit: $?"[14Pmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:44:36:[m[K [01;31m[Kerror: [m[Kpassing argument 3 of ‘[01m[Krequest[m[K’ makes integer from pointer without a cast [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+   44 |     resultado = request(&banco, 0, [01;34m[Kp[m[K[01;34m[Ke[m[K[01;34m[Kd[m[K[01;34m[Ki[m[K[01;34m[Kd[m[K[01;34m[Ko[m[K[01;34m[K1[m[K);
+      |                                    [01;34m[K^[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+      |                                    [01;34m[K|[m[K
+      |                                    [01;34m[Kint *[m[K
+[01m[Kmain.c:44:36:[m[K [01;36m[Knote: [m[Kpossible fix: dereference with ‘[01m[K*[m[K’
+   44 |     resultado = request(&banco, 0, [01;36m[Kpedido1[m[K);
+      |                                    [01;36m[K^~~~~~~[m[K
+      |                                    [32m[K*[m[K
+In file included from [01m[Kentrada.h:3[m[K,
+                 from [01m[Kmain.c:3[m[K:
+[01m[Kbanqueiro.h:16:46:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[K[01;32m[Kint[m[K[m[K’ but argument is of type ‘[01m[K[01;34m[Kint *[m[K[m[K’
+   16 | int request(Banco *banco, int idCliente, [01;32m[Ki[m[K[01;32m[Kn[m[K[01;32m[Kt[m[K[01;32m[K [m[K[01;32m[Kr[m[K[01;32m[Ke[m[K[01;32m[Kc[m[K[01;32m[Ku[m[K[01;32m[Kr[m[K[01;32m[Ks[m[K[01;32m[Ko[m[K[01;32m[Ks[m[K[01;32m[KP[m[K[01;32m[Ke[m[K[01;32m[Kd[m[K[01;32m[Ki[m[K[01;32m[Kd[m[K[01;32m[Ko[m[K[01;32m[Ks[m[K);
+      |                                          [01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K
+[01m[Kmain.c:55:36:[m[K [01;31m[Kerror: [m[Kpassing argument 3 of ‘[01m[Krequest[m[K’ makes integer from pointer without a cast [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+   55 |     resultado = request(&banco, 2, [01;34m[Kp[m[K[01;34m[Ke[m[K[01;34m[Kd[m[K[01;34m[Ki[m[K[01;34m[Kd[m[K[01;34m[Ko[m[K[01;34m[K2[m[K);
+      |                                    [01;34m[K^[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+      |                                    [01;34m[K|[m[K
+      |                                    [01;34m[Kint *[m[K
+[01m[Kmain.c:55:36:[m[K [01;36m[Knote: [m[Kpossible fix: dereference with ‘[01m[K*[m[K’
+   55 |     resultado = request(&banco, 2, [01;36m[Kpedido2[m[K);
+      |                                    [01;36m[K^~~~~~~[m[K
+      |                                    [32m[K*[m[K
+[01m[Kbanqueiro.h:16:46:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[K[01;32m[Kint[m[K[m[K’ but argument is of type ‘[01m[K[01;34m[Kint *[m[K[m[K’
+   16 | int request(Banco *banco, int idCliente, [01;32m[Ki[m[K[01;32m[Kn[m[K[01;32m[Kt[m[K[01;32m[K [m[K[01;32m[Kr[m[K[01;32m[Ke[m[K[01;32m[Kc[m[K[01;32m[Ku[m[K[01;32m[Kr[m[K[01;32m[Ks[m[K[01;32m[Ko[m[K[01;32m[Ks[m[K[01;32m[KP[m[K[01;32m[Ke[m[K[01;32m[Kd[m[K[01;32m[Ki[m[K[01;32m[Kd[m[K[01;32m[Ko[m[K[01;32m[Ks[m[K);
+      |                                          [01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K
+[01m[Kmain.c:62:70:[m[K [01;31m[Kerror: [m[Kpassing argument 3 of ‘[01m[Krequest[m[K’ makes integer from pointer without a cast [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, [01;34m[Kp[m[K[01;34m[Ke[m[K[01;34m[Kd[m[K[01;34m[Ki[m[K[01;34m[Kd[m[K[01;34m[Ko[m[K[01;34m[K3[m[K[01;34m[Ka[m[K));
+      |                                                                      [01;34m[K^[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+      |                                                                      [01;34m[K|[m[K
+      |                                                                      [01;34m[Kint *[m[K
+[01m[Kmain.c:62:70:[m[K [01;36m[Knote: [m[Kpossible fix: dereference with ‘[01m[K*[m[K’
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, [01;36m[Kpedido3a[m[K));
+      |                                                                      [01;36m[K^~~~~~~~[m[K
+      |                                                                      [32m[K*[m[K
+[01m[Kbanqueiro.h:16:46:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[K[01;32m[Kint[m[K[m[K’ but argument is of type ‘[01m[K[01;34m[Kint *[m[K[m[K’
+   16 | int request(Banco *banco, int idCliente, [01;32m[Ki[m[K[01;32m[Kn[m[K[01;32m[Kt[m[K[01;32m[K [m[K[01;32m[Kr[m[K[01;32m[Ke[m[K[01;32m[Kc[m[K[01;32m[Ku[m[K[01;32m[Kr[m[K[01;32m[Ks[m[K[01;32m[Ko[m[K[01;32m[Ks[m[K[01;32m[KP[m[K[01;32m[Ke[m[K[01;32m[Kd[m[K[01;32m[Ki[m[K[01;32m[Kd[m[K[01;32m[Ko[m[K[01;32m[Ks[m[K);
+      |                                          [01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K
+[01m[Kmain.c:63:70:[m[K [01;31m[Kerror: [m[Kpassing argument 3 of ‘[01m[Krequest[m[K’ makes integer from pointer without a cast [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, [01;34m[Kp[m[K[01;34m[Ke[m[K[01;34m[Kd[m[K[01;34m[Ki[m[K[01;34m[Kd[m[K[01;34m[Ko[m[K[01;34m[K3[m[K[01;34m[Kb[m[K));
+      |                                                                      [01;34m[K^[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+      |                                                                      [01;34m[K|[m[K
+      |                                                                      [01;34m[Kint *[m[K
+[01m[Kmain.c:63:70:[m[K [01;36m[Knote: [m[Kpossible fix: dereference with ‘[01m[K*[m[K’
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, [01;36m[Kpedido3b[m[K));
+      |                                                                      [01;36m[K^~~~~~~~[m[K
+      |                                                                      [32m[K*[m[K
+[01m[Kbanqueiro.h:16:46:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[K[01;32m[Kint[m[K[m[K’ but argument is of type ‘[01m[K[01;34m[Kint *[m[K[m[K’
+   16 | int request(Banco *banco, int idCliente, [01;32m[Ki[m[K[01;32m[Kn[m[K[01;32m[Kt[m[K[01;32m[K [m[K[01;32m[Kr[m[K[01;32m[Ke[m[K[01;32m[Kc[m[K[01;32m[Ku[m[K[01;32m[Kr[m[K[01;32m[Ks[m[K[01;32m[Ko[m[K[01;32m[Ks[m[K[01;32m[KP[m[K[01;32m[Ke[m[K[01;32m[Kd[m[K[01;32m[Ki[m[K[01;32m[Kd[m[K[01;32m[Ko[m[K[01;32m[Ks[m[K);
+      |                                          [01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K
+[01m[Kmain.c:64:70:[m[K [01;31m[Kerror: [m[Kpassing argument 3 of ‘[01m[Krequest[m[K’ makes integer from pointer without a cast [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, [01;34m[Kp[m[K[01;34m[Ke[m[K[01;34m[Kd[m[K[01;34m[Ki[m[K[01;34m[Kd[m[K[01;34m[Ko[m[K[01;34m[K3[m[K[01;34m[Kc[m[K));
+      |                                                                      [01;34m[K^[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+      |                                                                      [01;34m[K|[m[K
+      |                                                                      [01;34m[Kint *[m[K
+[01m[Kmain.c:64:70:[m[K [01;36m[Knote: [m[Kpossible fix: dereference with ‘[01m[K*[m[K’
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, [01;36m[Kpedido3c[m[K));
+      |                                                                      [01;36m[K^~~~~~~~[m[K
+      |                                                                      [32m[K*[m[K
+[01m[Kbanqueiro.h:16:46:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[K[01;32m[Kint[m[K[m[K’ but argument is of type ‘[01m[K[01;34m[Kint *[m[K[m[K’
+   16 | int request(Banco *banco, int idCliente, [01;32m[Ki[m[K[01;32m[Kn[m[K[01;32m[Kt[m[K[01;32m[K [m[K[01;32m[Kr[m[K[01;32m[Ke[m[K[01;32m[Kc[m[K[01;32m[Ku[m[K[01;32m[Kr[m[K[01;32m[Ks[m[K[01;32m[Ko[m[K[01;32m[Ks[m[K[01;32m[KP[m[K[01;32m[Ke[m[K[01;32m[Kd[m[K[01;32m[Ki[m[K[01;32m[Kd[m[K[01;32m[Ko[m[K[01;32m[Ks[m[K);
+      |                                          [01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K
+[01m[Kmain.c:70:36:[m[K [01;31m[Kerror: [m[Kpassing argument 3 of ‘[01m[Krequest[m[K’ makes integer from pointer without a cast [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+   70 |     resultado = request(&banco, 0, [01;34m[Kp[m[K[01;34m[Ke[m[K[01;34m[Kd[m[K[01;34m[Ki[m[K[01;34m[Kd[m[K[01;34m[Ko[m[K[01;34m[K4[m[K);
+      |                                    [01;34m[K^[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+      |                                    [01;34m[K|[m[K
+      |                                    [01;34m[Kint *[m[K
+[01m[Kmain.c:70:36:[m[K [01;36m[Knote: [m[Kpossible fix: dereference with ‘[01m[K*[m[K’
+   70 |     resultado = request(&banco, 0, [01;36m[Kpedido4[m[K);
+      |                                    [01;36m[K^~~~~~~[m[K
+      |                                    [32m[K*[m[K
+[01m[Kbanqueiro.h:16:46:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[K[01;32m[Kint[m[K[m[K’ but argument is of type ‘[01m[K[01;34m[Kint *[m[K[m[K’
+   16 | int request(Banco *banco, int idCliente, [01;32m[Ki[m[K[01;32m[Kn[m[K[01;32m[Kt[m[K[01;32m[K [m[K[01;32m[Kr[m[K[01;32m[Ke[m[K[01;32m[Kc[m[K[01;32m[Ku[m[K[01;32m[Kr[m[K[01;32m[Ks[m[K[01;32m[Ko[m[K[01;32m[Ks[m[K[01;32m[KP[m[K[01;32m[Ke[m[K[01;32m[Kd[m[K[01;32m[Ki[m[K[01;32m[Kd[m[K[01;32m[Ko[m[K[01;32m[Ks[m[K);
+      |                                          [01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K
+[01m[Kbanqueiro.c:130:5:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[Krequest[m[K’; have ‘[01m[Kint(Banco *, int,  int *)[m[K’
+  130 | int [01;31m[Krequest[m[K(Banco *banco, int idCliente, int *recursosPedidos){
+      |     [01;31m[K^~~~~~~[m[K
+In file included from [01m[Kbanqueiro.c:4[m[K:
+[01m[Kbanqueiro.h:16:5:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Krequest[m[K’ with type ‘[01m[Kint(Banco *, int,  int)[m[K’
+   16 | int [01;36m[Krequest[m[K(Banco *banco, int idCliente, int recursosPedidos);
+      |     [01;36m[K^~~~~~~[m[K
+[01m[Kbanqueiro.c:[m[K In function ‘[01m[Krequest[m[K’:
+[01m[Kbanqueiro.c:150:21:[m[K [01;31m[Kerror: [m[Kpassing argument 1 of ‘[01m[KestadoSeguro[m[K’ from incompatible pointer type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+  150 |     if(estadoSeguro([01;34m[K&[m[K[01;34m[Kb[m[K[01;34m[Ka[m[K[01;34m[Kn[m[K[01;34m[Kc[m[K[01;34m[Ko[m[K) == 1) return 0;
+      |                     [01;34m[K^[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+      |                     [01;34m[K|[m[K
+      |                     [01;34m[KBanco **[m[K
+[01m[Kbanqueiro.c:77:25:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[K[01;32m[KBanco *[m[K[m[K’ but argument is of type ‘[01m[K[01;34m[KBanco **[m[K[m[K’
+   77 | int estadoSeguro([01;32m[KB[m[K[01;32m[Ka[m[K[01;32m[Kn[m[K[01;32m[Kc[m[K[01;32m[Ko[m[K[01;32m[K [m[K[01;32m[K*[m[K[01;32m[Kb[m[K[01;32m[Ka[m[K[01;32m[Kn[m[K[01;32m[Kc[m[K[01;32m[Ko[m[K){
+      |                  [01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K
+make: *** [Makefile:4: banker] Error 1
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [H[2J]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ sofiavillela@SofiaVillel-PC:~/svv/svv$ make clean && make
+rm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+main.c: In function ‘main’:
+main.c:44:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:44:36: note: possible fix: dereference with ‘*’
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    *
+In file included from entrada.h:3,
+                 from main.c:3:
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:55:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:55:36: note: possible fix: dereference with ‘*’
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:62:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:62:70: note: possible fix: dereference with ‘*’
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:63:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:63:70: note: possible fix: dereference with ‘*’
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:64:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:64:70: note: possible fix: dereference with ‘*’
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+[7mmain.c:70:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion][27m
+[7m   70 |     resultado = request(&banco, 0, pedido4);[27m
+[7m      |                                    ^~~~~~~[27m
+[7m      |                                    |[27m
+[7m      |                                    int *[27m
+[7mmain.c:70:36: note: possible fix: dereference with ‘*’[27m
+[7m   70 |     resultado = request(&banco, 0, pedido4);[27m
+[7m      |                                    ^~~~~~~[27m
+[7m      |                                    *[27m
+[7mbanqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |                                          ~~~~^~~~~~~~~~~~~~~[27m
+[7mbanqueiro.c:130:5: error: conflicting types for ‘request’; have ‘int(Banco *, int,  int *)’[27m
+[7m  130 | int request(Banco *banco, int idCliente, int *recursosPedidos){[27m
+[7m      |     ^~~~~~~[27m
+[7mIn file included from banqueiro.c:4:[27m
+[7mbanqueiro.h:16:5: note: previous declaration of ‘request’ with type ‘int(Banco *, int,  int)’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |     ^~~~~~~[27m
+[7mbanqueiro.c: In function ‘request’:[27m
+[7mbanqueiro.c:150:21: error: passing argument 1 of ‘estadoSeguro’ from incompatible pointer type [-Wincompatible-pointer-ty[27m[7mp[27m[7mes] [27m
+[7m  150 |     if(estadoSeguro(&banco) == 1) return 0;[27m
+[7m      |                     ^~~~~~[27m
+[7m      |                     |[27m
+[7m      |                     Banco **[27m
+[7mbanqueiro.c:77:25: note: expected ‘Banco *’ but argument is of type ‘Banco **’[27m
+[7m   77 | int estadoSeguro(Banco *banco){[27m
+[7m      |                  ~~~~~~~^~~~~[27m[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[H[2J]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ sofiavillela@SofiaVillel-PC:~/svv/svv$ make clean && make
+rm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+main.c: In function ‘main’:
+main.c:44:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:44:36: note: possible fix: dereference with ‘*’
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    *
+In file included from entrada.h:3,
+                 from main.c:3:
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:55:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:55:36: note: possible fix: dereference with ‘*’
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:62:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:62:70: note: possible fix: dereference with ‘*’
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:63:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:63:70: note: possible fix: dereference with ‘*’
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:64:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:64:70: note: possible fix: dereference with ‘*’
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+[7m      |                                          ~~~~^~~~~~~~~~~~~~~[27m
+[7mmain.c:70:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion][27m
+[7m   70 |     resultado = request(&banco, 0, pedido4);[27m
+[7m      |                                    ^~~~~~~[27m
+[7m      |                                    |[27m
+[7m      |                                    int *[27m
+[7mmain.c:70:36: note: possible fix: dereference with ‘*’[27m
+[7m   70 |     resultado = request(&banco, 0, pedido4);[27m
+[7m      |                                    ^~~~~~~[27m
+[7m      |                                    *[27m
+[7mbanqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |                                          ~~~~^~~~~~~~~~~~~~~[27m
+[7mbanqueiro.c:130:5: error: conflicting types for ‘request’; have ‘int(Banco *, int,  int *)’[27m
+[7m  130 | int request(Banco *banco, int idCliente, int *recursosPedidos){[27m
+[7m      |     ^~~~~~~[27m
+[7mIn file included from banqueiro.c:4:[27m
+[7mbanqueiro.h:16:5: note: previous declaration of ‘request’ with type ‘int(Banco *, int,  int)’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |     ^~~~~~~[27m
+[7mbanqueiro.c: In function ‘request’:[27m
+[7mbanqueiro.c:150:21: error: passing argument 1 of ‘estadoSeguro’ from incompatible pointer type [-Wincompatible-pointer-ty[27m[7mp[27m[7mes] [27m
+[7m  150 |     if(estadoSeguro(&banco) == 1) return 0;[27m
+[7m      |                     ^~~~~~[27m
+[7m      |                     |[27m
+[7m      |                     Banco **[27m
+[7mbanqueiro.c:77:25: note: expected ‘Banco *’ but argument is of type ‘Banco **’[27m
+[7m   77 | int estadoSeguro(Banco *banco){[27m
+[7m      |                  ~~~~~~~^~~~~[27m[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[H[2J]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ sofiavillela@SofiaVillel-PC:~/svv/svv$ make clean && make
+rm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+main.c: In function ‘main’:
+main.c:44:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:44:36: note: possible fix: dereference with ‘*’
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    *
+In file included from entrada.h:3,
+                 from main.c:3:
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:55:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:55:36: note: possible fix: dereference with ‘*’
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:62:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:62:70: note: possible fix: dereference with ‘*’
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:63:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:63:70: note: possible fix: dereference with ‘*’
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:64:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:64:70: note: possible fix: dereference with ‘*’
+[7m   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));[27m
+[7m      |                                                                      ^~~~~~~~[27m
+[7m      |                                                                      *[27m
+[7mbanqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |                                          ~~~~^~~~~~~~~~~~~~~[27m
+[7mmain.c:70:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion][27m
+[7m   70 |     resultado = request(&banco, 0, pedido4);[27m
+[7m      |                                    ^~~~~~~[27m
+[7m      |                                    |[27m
+[7m      |                                    int *[27m
+[7mmain.c:70:36: note: possible fix: dereference with ‘*’[27m
+[7m   70 |     resultado = request(&banco, 0, pedido4);[27m
+[7m      |                                    ^~~~~~~[27m
+[7m      |                                    *[27m
+[7mbanqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |                                          ~~~~^~~~~~~~~~~~~~~[27m
+[7mbanqueiro.c:130:5: error: conflicting types for ‘request’; have ‘int(Banco *, int,  int *)’[27m
+[7m  130 | int request(Banco *banco, int idCliente, int *recursosPedidos){[27m
+[7m      |     ^~~~~~~[27m
+[7mIn file included from banqueiro.c:4:[27m
+[7mbanqueiro.h:16:5: note: previous declaration of ‘request’ with type ‘int(Banco *, int,  int)’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |     ^~~~~~~[27m
+[7mbanqueiro.c: In function ‘request’:[27m
+[7mbanqueiro.c:150:21: error: passing argument 1 of ‘estadoSeguro’ from incompatible pointer type [-Wincompatible-pointer-ty[27m[7mp[27m[7mes] [27m
+[7m  150 |     if(estadoSeguro(&banco) == 1) return 0;[27m
+[7m      |                     ^~~~~~[27m
+[7m      |                     |[27m
+[7m      |                     Banco **[27m
+[7mbanqueiro.c:77:25: note: expected ‘Banco *’ but argument is of type ‘Banco **’[27m
+[7m   77 | int estadoSeguro(Banco *banco){[27m
+[7m      |                  ~~~~~~~^~~~~[27m[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[H[2J]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ sofiavillela@SofiaVillel-PC:~/svv/svv$ make clean && make
+rm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+main.c: In function ‘main’:
+main.c:44:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:44:36: note: possible fix: dereference with ‘*’
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    *
+In file included from entrada.h:3,
+                 from main.c:3:
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:55:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:55:36: note: possible fix: dereference with ‘*’
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:62:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:62:70: note: possible fix: dereference with ‘*’
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:63:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:63:70: note: possible fix: dereference with ‘*’
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:64:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+[7mmain.c:64:70: note: possible fix: dereference with ‘*’[27m
+[7m   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));[27m
+[7m      |                                                                      ^~~~~~~~[27m
+[7m      |                                                                      *[27m
+[7mbanqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |                                          ~~~~^~~~~~~~~~~~~~~[27m
+[7mmain.c:70:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion][27m
+[7m   70 |     resultado = request(&banco, 0, pedido4);[27m
+[7m      |                                    ^~~~~~~[27m
+[7m      |                                    |[27m
+[7m      |                                    int *[27m
+[7mmain.c:70:36: note: possible fix: dereference with ‘*’[27m
+[7m   70 |     resultado = request(&banco, 0, pedido4);[27m
+[7m      |                                    ^~~~~~~[27m
+[7m      |                                    *[27m
+[7mbanqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |                                          ~~~~^~~~~~~~~~~~~~~[27m
+[7mbanqueiro.c:130:5: error: conflicting types for ‘request’; have ‘int(Banco *, int,  int *)’[27m
+[7m  130 | int request(Banco *banco, int idCliente, int *recursosPedidos){[27m
+[7m      |     ^~~~~~~[27m
+[7mIn file included from banqueiro.c:4:[27m
+[7mbanqueiro.h:16:5: note: previous declaration of ‘request’ with type ‘int(Banco *, int,  int)’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |     ^~~~~~~[27m
+[7mbanqueiro.c: In function ‘request’:[27m
+[7mbanqueiro.c:150:21: error: passing argument 1 of ‘estadoSeguro’ from incompatible pointer type [-Wincompatible-pointer-types][27m
+[7m  150 |     if(estadoSeguro(&banco) == 1) return 0;[27m
+[7m      |                     ^~~~~~[27m
+[7m      |                     |[27m
+[7m      |                     Banco **[27m
+[7mbanqueiro.c:77:25: note: expected ‘Banco *’ but argument is of type ‘Banco **’[27m
+[7m   77 | int estadoSeguro(Banco *banco){[27m
+[7m      |                  ~~~~~~~^~~~~[27m[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[H[2J]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ sofiavillela@SofiaVillel-PC:~/svv/svv$ make clean && make
+rm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+main.c: In function ‘main’:
+main.c:44:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:44:36: note: possible fix: dereference with ‘*’
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    *
+In file included from entrada.h:3,
+                 from main.c:3:
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:55:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:55:36: note: possible fix: dereference with ‘*’
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:62:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:62:70: note: possible fix: dereference with ‘*’
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:63:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:63:70: note: possible fix: dereference with ‘*’
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:64:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:64:70: note: possible fix: dereference with ‘*’
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+[7m      |                                          ~~~~^~~~~~~~~~~~~~~[27m
+[7mmain.c:70:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion][27m
+[7m   70 |     resultado = request(&banco, 0, pedido4);[27m
+[7m      |                                    ^~~~~~~[27m
+[7m      |                                    |[27m
+[7m      |                                    int *[27m
+[7mmain.c:70:36: note: possible fix: dereference with ‘*’[27m
+[7m   70 |     resultado = request(&banco, 0, pedido4);[27m
+[7m      |                                    ^~~~~~~[27m
+[7m      |                                    *[27m
+[7mbanqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |                                          ~~~~^~~~~~~~~~~~~~~[27m
+[7mbanqueiro.c:130:5: error: conflicting types for ‘request’; have ‘int(Banco *, int,  int *)’[27m
+[7m  130 | int request(Banco *banco, int idCliente, int *recursosPedidos){[27m
+[7m      |     ^~~~~~~[27m
+[7mIn file included from banqueiro.c:4:[27m
+[7mbanqueiro.h:16:5: note: previous declaration of ‘request’ with type ‘int(Banco *, int,  int)’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |     ^~~~~~~[27m
+[7mbanqueiro.c: In function ‘request’:[27m
+[7mbanqueiro.c:150:21: error: passing argument 1 of ‘estadoSeguro’ from incompatible pointer type [-Wincompatible-pointer-types][27m
+[7m  150 |     if(estadoSeguro(&banco) == 1) return 0;[27m
+[7m      |                     ^~~~~~[27m
+[7m      |                     |[27m
+[7m      |                     Banco **[27m
+[7mbanqueiro.c:77:25: note: expected ‘Banco *’ but argument is of type ‘Banco **’[27m
+[7m   77 | int estadoSeguro(Banco *banco){[27m
+[7m      |                  ~~~~~~~^~~~~[27m[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[H[2J]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ sofiavillela@SofiaVillel-PC:~/svv/svv$ make clean && make
+rm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+main.c: In function ‘main’:
+main.c:44:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:44:36: note: possible fix: dereference with ‘*’
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    *
+In file included from entrada.h:3,
+                 from main.c:3:
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:55:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:55:36: note: possible fix: dereference with ‘*’
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:62:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:62:70: note: possible fix: dereference with ‘*’
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:63:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:63:70: note: possible fix: dereference with ‘*’
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:64:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:64:70: note: possible fix: dereference with ‘*’
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:70:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   70 |     resultado = request(&banco, 0, pedido4);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:70:36: note: possible fix: dereference with ‘*’
+   70 |     resultado = request(&banco, 0, pedido4);
+      |                                    ^~~~~~~
+      |                                    *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+banqueiro.c:130:5: error: conflicting types for ‘request’; have ‘int(Banco *, int,  int *)’
+  130 | int request(Banco *banco, int idCliente, int *recursosPedidos){
+      |     ^~~~~~~
+In file included from banqueiro.c:4:
+[7mbanqueiro.h:16:5: note: previous declaration of ‘request’ with type ‘int(Banco *, int,  int)’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |     ^~~~~~~[27m
+[7mbanqueiro.c: In function ‘request’:[27m
+[7mbanqueiro.c:150:21: error: passing argument 1 of ‘estadoSeguro’ from incompatible pointer type [-Wincompatible-pointer-types][27m
+[7m  150 |     if(estadoSeguro(&banco) == 1) return 0;[27m
+[7m      |                     ^~~~~~[27m
+[7m      |                     |[27m
+[7m      |                     Banco **[27m
+[7mbanqueiro.c:77:25: note: expected ‘Banco *’ but argument is of type ‘Banco **’[27m
+[7m   77 | int estadoSeguro(Banco *banco){[27m
+[7m      |                  ~~~~~~~^~~~~[27m[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[A[K[H[2J]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ sofiavillela@SofiaVillel-PC:~/svv/svv$ make clean && make
+rm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+main.c: In function ‘main’:
+main.c:44:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:44:36: note: possible fix: dereference with ‘*’
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    *
+In file included from entrada.h:3,
+                 from main.c:3:
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:55:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:55:36: note: possible fix: dereference with ‘*’
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:62:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:62:70: note: possible fix: dereference with ‘*’
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:63:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:63:70: note: possible fix: dereference with ‘*’
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:64:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+[7mmain.c:64:70: note: possible fix: dereference with ‘*’[27m
+[7m   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));[27m
+[7m      |                                                                      ^~~~~~~~[27m
+[7m      |                                                                      *[27m
+[7mbanqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |                                          ~~~~^~~~~~~~~~~~~~~[27m
+[7mmain.c:70:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion][27m
+[7m   70 |     resultado = request(&banco, 0, pedido4);[27m
+[7m      |                                    ^~~~~~~[27m
+[7m      |                                    |[27m
+[7m      |                                    int *[27m
+[7mmain.c:70:36: note: possible fix: dereference with ‘*’[27m
+[7m   70 |     resultado = request(&banco, 0, pedido4);[27m
+[7m      |                                    ^~~~~~~[27m
+[7m      |                                    *[27m
+[7mbanqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |                                          ~~~~^~~~~~~~~~~~~~~[27m
+[7mbanqueiro.c:130:5: error: conflicting types for ‘request’; have ‘int(Banco *, int,  int *)’[27m
+[7m  130 | int request(Banco *banco, int idCliente, int *recursosPedidos){[27m
+[7m      |     ^~~~~~~[27m
+[7mIn file included from banqueiro.c:4:[27m
+[7mbanqueiro.h:16:5: note: previous declaration of ‘request’ with type ‘int(Banco *, int,  int)’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |     ^~~~~~~[27m
+[7mbanqueiro.c: In function ‘request’:[27m
+[7mbanqueiro.c:150:21: error: passing argument 1 of ‘estadoSeguro’ from incompatible pointer type [-Wincompatible-pointer-types][27m
+[7m  150 |     if(estadoSeguro(&banco) == 1) return 0;[27m
+[7m      |                     ^~~~~~[27m
+[7m      |                     |[27m
+[7m      |                     Banco **[27m
+[7mbanqueiro.c:77:25: note: expected ‘Banco *’ but argument is of type ‘Banco **’[27m
+[7m   77 | int estadoSeguro(Banco *banco){[27m
+[7m      |                  ~~~~~~~^~~~~[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amain.c:64:70: note: possible fix: dereference with ‘*’
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:70:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   70 |     resultado = request(&banco, 0, pedido4);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:70:36: note: possible fix: dereference with ‘*’
+   70 |     resultado = request(&banco, 0, pedido4);
+      |                                    ^~~~~~~
+      |                                    *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+banqueiro.c:130:5: error: conflicting types for ‘request’; have ‘int(Banco *, int,  int *)’
+  130 | int request(Banco *banco, int idCliente, int *recursosPedidos){
+      |     ^~~~~~~
+In file included from banqueiro.c:4:
+banqueiro.h:16:5: note: previous declaration of ‘request’ with type ‘int(Banco *, int,  int)’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |     ^~~~~~~
+banqueiro.c: In function ‘request’:
+banqueiro.c:150:21: error: passing argument 1 of ‘estadoSeguro’ from incompatible pointer type [-Wincompatible-pointer-types]
+  150 |     if(estadoSeguro(&banco) == 1) return 0;
+      |                     ^~~~~~
+      |                     |
+      |                     Banco **
+banqueiro.c:77:25: note: expected ‘Banco *’ but argument is of type ‘Banco **’
+   77 | int estadoSeguro(Banco *banco){
+      |                  ~~~~~~~^~~~~sofiavillela@SofiaVillel-PC:~/svv/svv$ make clean && make
+rm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+main.c: In function ‘main’:
+main.c:44:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:44:36: note: possible fix: dereference with ‘*’
+   44 |     resultado = request(&banco, 0, pedido1);
+      |                                    ^~~~~~~
+      |                                    *
+In file included from entrada.h:3,
+                 from main.c:3:
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:55:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    int *
+main.c:55:36: note: possible fix: dereference with ‘*’
+   55 |     resultado = request(&banco, 2, pedido2);
+      |                                    ^~~~~~~
+      |                                    *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:62:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:62:70: note: possible fix: dereference with ‘*’
+   62 |     printf("Teste 3a: retorno %d (esperado 0)\n", request(&banco, 2, pedido3a));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:63:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+main.c:63:70: note: possible fix: dereference with ‘*’
+   63 |     printf("Teste 3b: retorno %d (esperado 0)\n", request(&banco, 1, pedido3b));
+      |                                                                      ^~~~~~~~
+      |                                                                      *
+banqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’
+   16 | int request(Banco *banco, int idCliente, int recursosPedidos);
+      |                                          ~~~~^~~~~~~~~~~~~~~
+main.c:64:70: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion]
+   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));
+      |                                                                      ^~~~~~~~
+      |                                                                      |
+      |                                                                      int *
+[7mmain.c:64:70: note: possible fix: dereference with ‘*’[27m
+[7m   64 |     printf("Teste 3c: retorno %d (esperado 0)\n", request(&banco, 4, pedido3c));[27m
+[7m      |                                                                      ^~~~~~~~[27m
+[7m      |                                                                      *[27m
+[7mbanqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |                                          ~~~~^~~~~~~~~~~~~~~[27m
+[7mmain.c:70:36: error: passing argument 3 of ‘request’ makes integer from pointer without a cast [-Wint-conversion][27m
+[7m   70 |     resultado = request(&banco, 0, pedido4);[27m
+[7m      |                                    ^~~~~~~[27m
+[7m      |                                    |[27m
+[7m      |                                    int *[27m
+[7mmain.c:70:36: note: possible fix: dereference with ‘*’[27m
+[7m   70 |     resultado = request(&banco, 0, pedido4);[27m
+[7m      |                                    ^~~~~~~[27m
+[7m      |                                    *[27m
+[7mbanqueiro.h:16:46: note: expected ‘int’ but argument is of type ‘int *’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |                                          ~~~~^~~~~~~~~~~~~~~[27m
+[7mbanqueiro.c:130:5: error: conflicting types for ‘request’; have ‘int(Banco *, int,  int *)’[27m
+[7m  130 | int request(Banco *banco, int idCliente, int *recursosPedidos){[27m
+[7m      |     ^~~~~~~[27m
+[7mIn file included from banqueiro.c:4:[27m
+[7mbanqueiro.h:16:5: note: previous declaration of ‘request’ with type ‘int(Banco *, int,  int)’[27m
+[7m   16 | int request(Banco *banco, int idCliente, int recursosPedidos);[27m
+[7m      |     ^~~~~~~[27m
+[7mbanqueiro.c: In function ‘request’:[27m
+[7mbanqueiro.c:150:21: error: passing argument 1 of ‘estadoSeguro’ from incompatible pointer type [-Wincompatible-pointer-types][27m
+[7m  150 |     if(estadoSeguro(&banco) == 1) return 0;[27m
+[7m      |                     ^~~~~~[27m
+[7m      |                     |[27m
+[7m      |                     Banco **[27m
+[7mbanqueiro.c:77:25: note: expected ‘Banco *’ but argument is of type ‘Banco **’[27m
+[7m   77 | int estadoSeguro(Banco *banco){[27m
+[7m      |                  ~~~~~~~^~~~~[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && make[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@Script started on 2026-11-15 11:23:31-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="182" LINES="30"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ ./banker 10 5 7; echo "exit: $?"[14Pmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && make./banker 10 5 7; echo "exit: $?"
+[?2004lTeste 1: retorno 0 (esperado 0)
+  available: 10 3 6 (esperado 10 3 6)
+  allocation[0]: 0 2 1 (esperado 0 2 1)
+  need[0]: 7 3 2 (esperado 7 3 2)
+Teste 2: retorno 1 (esperado 1)
+Teste 3a: retorno 0 (esperado 0)
+Teste 3b: retorno 0 (esperado 0)
+Teste 3c: retorno 0 (esperado 0)
+  available: 5 3 2 (esperado 5 3 2)
+Teste 4: retorno 2 (esperado 2)
+  available: 5 3 2 (esperado 5 3 2, sem mudança)
+exit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-15 11:23:58-03:00 [COMMAND_EXIT_CODE="0"]
