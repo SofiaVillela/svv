@@ -210,6 +210,16 @@ int validarComandos(const char *nomeArquivo, Banco *banco){
     return 0;
 }
 
+static void escreverVetor(FILE *saida, int *vetor, int tamanho) {
+    for (int j = 0; j < tamanho; j++) {
+        if (j == 0) {
+            fprintf(saida, "%d", vetor[j]);
+        } else {
+            fprintf(saida, " %d", vetor[j]);
+        }
+    }
+}
+
 int executarComandos(const char *nomeArquivo, Banco *banco){
     FILE *file = fopen(nomeArquivo, "r");
     if (file == NULL) {
@@ -261,13 +271,39 @@ int executarComandos(const char *nomeArquivo, Banco *banco){
         int retorno;
         if(ehRequest) retorno =  request(banco, idCliente, valores);
         else retorno = release(banco, idCliente, valores);
-        
-                // DEBUG: apagar depois
-        printf("%s cliente %d valores:", ehRequest ? "RQ" : "RL", idCliente);
-        for (int j = 0; j < banco->numeroDeRecursos; j++) {
-            printf(" %d", valores[j]);
+        int n = banco->numeroDeRecursos;
+
+        if (ehRequest) {
+            if (retorno == 0) {
+                fprintf(resultado, "Allocate to customer %d the resources ", idCliente);
+                escreverVetor(resultado, valores, n);
+                fprintf(resultado, "\n");
+            } else if (retorno == 1) {
+                fprintf(resultado, "The customer %d request ", idCliente);
+                escreverVetor(resultado, valores, n);
+                fprintf(resultado, " was denied because exceed its maximum allocation\n");
+            } else if (retorno == 2) {
+                fprintf(resultado, "The resources ");
+                escreverVetor(resultado, banco->available, n);
+                fprintf(resultado, " are not enough to customer %d request ", idCliente);
+                escreverVetor(resultado, valores, n);
+                fprintf(resultado, " \n");
+            } else if (retorno == 3) {
+                fprintf(resultado, "The customer %d request ", idCliente);
+                escreverVetor(resultado, valores, n);
+                fprintf(resultado, " was denied because result in an unsafe state\n");
+            }
+        } else {
+            if (retorno == 0) {
+                fprintf(resultado, "Release from customer %d the resources ", idCliente);
+                escreverVetor(resultado, valores, n);
+                fprintf(resultado, "\n");
+            } else {
+                fprintf(resultado, "The customer %d release ", idCliente);
+                escreverVetor(resultado, valores, n);
+                fprintf(resultado, " was denied because exceed its current allocation\n");
+            }
         }
-        printf(" -> retorno %d\n", retorno);
     }
     fclose(file);
     fclose(resultado);

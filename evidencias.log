@@ -1582,3 +1582,136 @@ exit: 0
 [?2004lexit
 
 Script done on 2026-11-15 11:23:58-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-15 11:27:54-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="164" LINES="30"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ exit./banker 10 5 7; echo "exit: $?"[14Pmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && makeexit[K./banker 10 5 7; echo "exit: $?"
+[?2004lTeste 1: retorno 0 (esperado 0)
+  available: 10 3 6 (esperado 10 3 6)
+  allocation[0]: 0 2 1 (esperado 0 2 1)
+  need[0]: 7 3 2 (esperado 7 3 2)
+Teste 2: retorno 1 (esperado 1)
+Teste 3a: retorno 0 (esperado 0)
+Teste 3b: retorno 0 (esperado 0)
+Teste 3c: retorno 0 (esperado 0)
+  available: 5 3 2 (esperado 5 3 2)
+Teste 4: retorno 2 (esperado 2)
+  available: 5 3 2 (esperado 5 3 2, sem mudança)
+Teste 5: retorno 0 (esperado 0)
+  available: 5 4 3 (esperado 5 4 3)
+  allocation[0]: 0 1 0 (esperado 0 1 0)
+  need[0]: 7 4 3 (esperado 7 4 3)
+Teste 6: retorno 1 (esperado 1)
+  available: 5 4 3 (esperado 5 4 3, sem mudança)
+exit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-15 11:38:59-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-15 12:16:25-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="182" LINES="30"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ git pushcommit -m "feat: implementa release"[2Padd banqueiro.c banqueiro.h main.c[13Pscript -a evidencias.log git push[Kcommit -m "feat: implementa request"add banqueiro.c banqueiro.h main.c evidencias.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pcommit -m "feat: implementa request"push[Kscript -a evidencias.log git add banqueiro.c banqueiro.h main.ccommit -m "feat: implementa release"push[K[Kgit pushcommit -m "feat: implementa release"[2Padd banqueiro.c banqueiro.h main.c[13Pscript -a evidencias.log git push[Kcommit -m "feat: implementa request"add banqueiro.c banqueiro.h main.c evidencias.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29Pscript -a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./banker 10 5 7; echo "exit: $?"[14Pmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && make[10Pgit pushcommit -m "feat: implementa release"[2Padd banqueiro.c banqueiro.h main.c[13Pscript -a evidencias.log git push[Kcommit -m "feat: implementa request"add banqueiro.c banqueiro.h main.c evidencias.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29Pscript -a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./banker 10 5 7; echo "exit: $?"
+[?2004lTeste 1: retorno 0 (esperado 0)
+  available: 10 3 6 (esperado 10 3 6)
+  allocation[0]: 0 2 1 (esperado 0 2 1)
+  need[0]: 7 3 2 (esperado 7 3 2)
+Teste 2: retorno 1 (esperado 1)
+Teste 3a: retorno 0 (esperado 0)
+Teste 3b: retorno 0 (esperado 0)
+Teste 3c: retorno 0 (esperado 0)
+  available: 5 3 2 (esperado 5 3 2)
+Teste 4: retorno 2 (esperado 2)
+  available: 5 3 2 (esperado 5 3 2, sem mudança)
+Teste 5: retorno 0 (esperado 0)
+  available: 5 4 3 (esperado 5 4 3)
+  allocation[0]: 0 1 0 (esperado 0 1 0)
+  need[0]: 7 4 3 (esperado 7 4 3)
+Teste 6: retorno 1 (esperado 1)
+  available: 5 4 3 (esperado 5 4 3, sem mudança)
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   0 0 0       |   2 2 2 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 5 4 3 
+exit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7mgit add banqueiro.c banqueiro.h main.c[27m[1Pgit add banqueiro.c banqueiro.h main.[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2026-11-15 12:17:01-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-15 12:32:44-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="121" LINES="22"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ exit./banker 10 5 7; echo "exit: $?"[14Pmake clean && make[10Pgit pushmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[01m[Kentrada.c:[m[K In function ‘[01m[KexecutarComandos[m[K’:
+[01m[Kentrada.c:268:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+  268 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make: *** [Makefile:4: banker] Error 1
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && makeexit[K./banker 10 5 7; echo "exit: $?"
+[?2004lTeste 1: retorno 0 (esperado 0)
+  available: 10 3 6 (esperado 10 3 6)
+  allocation[0]: 0 2 1 (esperado 0 2 1)
+  need[0]: 7 3 2 (esperado 7 3 2)
+Teste 2: retorno 1 (esperado 1)
+Teste 3a: retorno 0 (esperado 0)
+Teste 3b: retorno 0 (esperado 0)
+Teste 3c: retorno 0 (esperado 0)
+  available: 5 3 2 (esperado 5 3 2)
+Teste 4: retorno 2 (esperado 2)
+  available: 5 3 2 (esperado 5 3 2, sem mudança)
+Teste 5: retorno 0 (esperado 0)
+  available: 5 4 3 (esperado 5 4 3)
+  allocation[0]: 0 1 0 (esperado 0 1 0)
+  need[0]: 7 4 3 (esperado 7 4 3)
+Teste 6: retorno 1 (esperado 1)
+  available: 5 4 3 (esperado 5 4 3, sem mudança)
+MAXIMUM   |   ALLOCATION  |   NEED
+7 5 3     |   0 1 0       |   7 4 3 
+3 2 2     |   2 0 0       |   1 2 2 
+9 0 2     |   3 0 2       |   6 0 0 
+2 2 2     |   0 0 0       |   2 2 2 
+4 3 3     |   0 0 2       |   4 3 1 
+AVAILABLE 5 4 3 
+exit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ ./banker 10 5 7; echo "exit: $?"[14Pmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && make./banker 10 5 7; echo "exit: $?"
+[?2004lRL cliente 0 valores: 0 2 1 -> retorno 1
+RL cliente 2 valores: 3 0 2 -> retorno 1
+RL cliente 1 valores: 2 0 0 -> retorno 1
+RL cliente 4 valores: 0 0 2 -> retorno 1
+RL cliente 0 valores: 0 1 1 -> retorno 1
+RL cliente 3 valores: 2 1 1 -> retorno 1
+RL cliente 4 valores: 4 0 0 -> retorno 1
+RL cliente 1 valores: 1 0 2 -> retorno 1
+RL cliente 0 valores: 0 2 0 -> retorno 1
+RL cliente 2 valores: 0 1 0 -> retorno 1
+exit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ ./banker 10 5 7; echo "exit: $?"[14Pmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ make clean && make./banker 10 5 7; echo "exit: $?"
+[?2004lRQ cliente 0 valores: 0 2 1 -> retorno 0
+RQ cliente 2 valores: 3 0 2 -> retorno 0
+RQ cliente 1 valores: 2 0 0 -> retorno 0
+RQ cliente 4 valores: 0 0 2 -> retorno 0
+RL cliente 0 valores: 0 1 1 -> retorno 0
+RQ cliente 3 valores: 2 1 1 -> retorno 0
+RQ cliente 4 valores: 4 0 0 -> retorno 2
+RQ cliente 1 valores: 1 0 2 -> retorno 0
+RQ cliente 0 valores: 0 2 0 -> retorno 3
+RQ cliente 2 valores: 0 1 0 -> retorno 1
+exit: 0
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-15 12:40:14-03:00 [COMMAND_EXIT_CODE="0"]
