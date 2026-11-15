@@ -125,3 +125,87 @@ int preencheMatriz(const char*nomeArquivo, Banco *banco){
     fclose(file);
     return 0;
 }
+
+int validarComandos(const char *nomeArquivo, Banco *banco){
+    FILE *file = fopen(nomeArquivo, "r");
+    if (file == NULL) {
+        fprintf(stderr, "Erro: não foi possível abrir %s.\n", nomeArquivo);
+        return -1;
+    }
+
+    char linha[1000];
+    int numeroLinha = 0;
+
+    while (fgets(linha, sizeof(linha), file) != NULL) {
+        numeroLinha++;
+
+        linha[strcspn(linha, "\r\n")] = '\0';
+        if (linha[0] == '\0') {
+            continue;
+        }
+
+        char *token = strtok(linha, " ");
+        if (token == NULL) {
+            continue;   // linha só com espaços
+        }
+
+        if (strcmp(token, "*") == 0) {
+            // '*' precisa estar sozinho na linha
+            if (strtok(NULL, " ") != NULL) {
+                fprintf(stderr, "Erro: linha %d de %s: '*' deve estar sozinho na linha.\n", numeroLinha, nomeArquivo);
+                fclose(file);
+                return 1;
+            }
+            continue;
+        }
+
+        if (strcmp(token, "RQ") != 0 && strcmp(token, "RL") != 0) {
+            fprintf(stderr, "Erro: linha %d de %s: comando '%s' desconhecido.\n", numeroLinha, nomeArquivo, token);
+            fclose(file);
+            return 1;
+        }
+
+        token = strtok(NULL, " ");
+        if (token == NULL) {
+            fprintf(stderr, "Erro: linha %d de %s: falta o id do cliente.\n", numeroLinha, nomeArquivo);
+            fclose(file);
+            return 1;
+        }
+        char *fim;
+        long cliente = strtol(token, &fim, 10);
+        if (fim == token || *fim != '\0') {
+            fprintf(stderr, "Erro: linha %d de %s: id do cliente '%s' inválido.\n", numeroLinha, nomeArquivo, token);
+            fclose(file);
+            return 1;
+        }
+
+        if (cliente < 0 || cliente >= banco->numeroDeClientes) {
+            fprintf(stderr, "Erro: linha %d de %s: cliente %ld não existe (válidos: 0 a %d).\n", numeroLinha, nomeArquivo, cliente, banco->numeroDeClientes - 1);
+            fclose(file);
+            return 1;
+        }
+
+        // 3º token em diante: valores dos recursos
+        int quantidadeValores = 0;
+        token = strtok(NULL, " ");
+        while (token != NULL) {
+            long valor = strtol(token, &fim, 10);
+            if (fim == token || *fim != '\0' || valor < 0) {
+                fprintf(stderr, "Erro: linha %d de %s: valor '%s' inválido.\n", numeroLinha, nomeArquivo, token);
+                fclose(file);
+                return 1;
+            }
+            quantidadeValores++;
+            token = strtok(NULL, " ");
+        }
+
+        if (quantidadeValores != banco->numeroDeRecursos) {
+            fprintf(stderr, "Erro: linha %d de %s tem %d valores, esperado %d.\n", numeroLinha, nomeArquivo, quantidadeValores, banco->numeroDeRecursos);
+            fclose(file);
+            return 1;
+        }
+    }
+
+    fclose(file);
+    return 0;
+}
