@@ -23,7 +23,7 @@ O programa lê `customer.txt` e `commands.txt` da pasta atual e grava o resultad
  
 O programa mostra uma mensagem e encerra quando:
  
-- não há argumentos, ou algum argumento não é um número inteiro positivo;
+- não há argumentos, ou algum argumento não é um inteiro não negativo;
 - `customer.txt` ou `commands.txt` não existe ou não abre;
 - `customer.txt` está vazio, tem valor inválido ou tem número de colunas diferente do número de argumentos;
 - `commands.txt` tem comando desconhecido, cliente inexistente, valor inválido ou número de valores diferente do número de recursos.

@@ -29,7 +29,7 @@ int main(int argc, char **argv) {
         return 1;
     }
     if(preencheMatriz("customer.txt",&banco) == 1) {
-        free(banco.available);
+        liberarBanco(&banco);
         return 1;
     }
     if (validarComandos("commands.txt", &banco) == 1) {

@@ -1792,3 +1792,21 @@ AVAILABLE 2 2 1 1
 [?2004lexit
 
 Script done on 2026-11-15 13:10:57-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-15 14:00:39-03:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="121" LINES="6"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7mmv customer.txt customer.bak[27mmv customer.txt customer.bak
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker 10 5 7; echo "exit: $?"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./banker 10 5 7; echo "exit: $?"
+[A
+[?2004lErro: não foi possível abrir customer.txt.
+exit: 1
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7mmv customer.bak customer.txt[27mmv customer.bak customer.txt
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [K]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7mmake clean && make[27mmake clean && make
+[?2004lrm -f banker result.txt
+gcc -o banker main.c entrada.c banqueiro.c
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7m./banker 10 5 7[27m./banker 10 5 7
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7mdiff result.txt result_professor.txt && echo "IDENTICO"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff result.txt result_professor.txt && echo "IDENTICO"
+[?2004lIDENTICO
+[?2004h]0;sofiavillela@SofiaVillel-PC: ~/svv/svv[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m~/svv/svv[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-15 14:02:43-03:00 [COMMAND_EXIT_CODE="0"]
