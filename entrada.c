@@ -46,12 +46,20 @@ int contarClientes(const char *nomeArquivo, int quantidadeTipoRecurso) {
 
     char linha[1000];
     int contadorClientes = 0;
+    int numeroLinha = 0;
 
     while (fgets(linha, sizeof(linha), file) != NULL) {
+        numeroLinha++;
 
         linha[strcspn(linha, "\r\n")] = '\0';
         if (linha[0] == '\0') {
             continue;
+        }
+
+        if (linha[strlen(linha) - 1] == ',') {
+            fprintf(stderr, "Erro: linha %d de %s termina com vírgula.\n", numeroLinha, nomeArquivo);
+            fclose(file);
+            return -1;
         }
 
         contadorClientes++;
@@ -63,16 +71,16 @@ int contarClientes(const char *nomeArquivo, int quantidadeTipoRecurso) {
             int valor = strtol(token, &fim, 10);
 
             if(fim == token|| *fim != '\0'||valor < 0){
-                fprintf(stderr, "Erro: %s é invalido", token);
+                fprintf(stderr, "Erro: valor '%s' inválido na linha %d de %s.\n", token, numeroLinha, nomeArquivo);
                 fclose(file);
                 return -1;
             }
 
-            token = strtok(NULL, ",");
             colunas++;
+            token = strtok(NULL, ",");
         }
         if(colunas != quantidadeTipoRecurso){
-            fprintf(stderr, "Erro quantidade de colunas != recuros\n"); 
+            fprintf(stderr, "Erro: linha %d de %s tem %d colunas, esperado %d.\n", numeroLinha, nomeArquivo, colunas, quantidadeTipoRecurso);
             fclose(file);
             return -1;
         }
