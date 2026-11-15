@@ -68,7 +68,7 @@ int contarClientes(const char *nomeArquivo, int quantidadeTipoRecurso) {
 
         while(token != NULL){
             char *fim;
-            int valor = strtol(token, &fim, 10);
+            long valor = strtol(token, &fim, 10);
 
             if(fim == token|| *fim != '\0'||valor < 0){
                 fprintf(stderr, "Erro: valor '%s' inválido na linha %d de %s.\n", token, numeroLinha, nomeArquivo);
