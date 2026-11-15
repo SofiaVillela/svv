@@ -156,3 +156,17 @@ int request(Banco *banco, int idCliente, int *recursosPedidos){
     }
     return 3;
 }
+
+int release(Banco *banco, int idCliente, int *recursosRetorna){
+    for(int j = 0; j < banco->numeroDeRecursos; j++){
+        if(recursosRetorna[j] > banco->allocation[idCliente][j]){
+            return 1;
+        }
+    }
+    for(int j = 0; j < banco->numeroDeRecursos; j++){
+        banco->available[j] = banco->available[j] + recursosRetorna[j];
+        banco->allocation[idCliente][j] = banco->allocation[idCliente][j] - recursosRetorna[j];
+        banco->need[idCliente][j] = banco->need[idCliente][j] + recursosRetorna[j];
+    }
+    return 0;
+}

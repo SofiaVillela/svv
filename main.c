@@ -71,6 +71,23 @@ int main(int argc, char **argv) {
     printf("Teste 4: retorno %d (esperado 2)\n", resultado);
     printf("  available: %d %d %d (esperado 5 3 2, sem mudança)\n",
            banco.available[0], banco.available[1], banco.available[2]);
+             // Teste 5: cliente 0 devolve 0 1 1 → esperado 0 (liberado)
+    int devolve5[] = {0, 1, 1};
+    resultado = release(&banco, 0, devolve5);
+    printf("Teste 5: retorno %d (esperado 0)\n", resultado);
+    printf("  available: %d %d %d (esperado 5 4 3)\n",
+           banco.available[0], banco.available[1], banco.available[2]);
+    printf("  allocation[0]: %d %d %d (esperado 0 1 0)\n",
+           banco.allocation[0][0], banco.allocation[0][1], banco.allocation[0][2]);
+    printf("  need[0]: %d %d %d (esperado 7 4 3)\n",
+           banco.need[0][0], banco.need[0][1], banco.need[0][2]);
+
+    // Teste 6: cliente 0 devolve 0 5 0 → só tem 1 do recurso B → esperado 1
+    int devolve6[] = {0, 5, 0};
+    resultado = release(&banco, 0, devolve6);
+    printf("Teste 6: retorno %d (esperado 1)\n", resultado);
+    printf("  available: %d %d %d (esperado 5 4 3, sem mudança)\n",
+           banco.available[0], banco.available[1], banco.available[2]);
     liberarBanco(&banco);   
     return 0;
 }
