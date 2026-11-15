@@ -170,3 +170,48 @@ int release(Banco *banco, int idCliente, int *recursosRetorna){
     }
     return 0;
 }
+
+void imprimirEstado(Banco *banco, FILE *file) {
+
+    const int larguraMaximum = 10;    
+    const int larguraAllocation = 12;  
+
+    fprintf(file, "MAXIMUM   |   ALLOCATION  |   NEED\n");
+
+    for (int i = 0; i < banco->numeroDeClientes; i++) {
+        int escritos;
+
+        //max
+        escritos = 0;
+        for (int j = 0; j < banco->numeroDeRecursos; j++) {
+            escritos += fprintf(file, "%d ", banco->maximum[i][j]);
+        }
+        while (escritos < larguraMaximum) {
+            fprintf(file, " ");
+            escritos++;
+        }
+        fprintf(file, "|   ");
+
+        //allo
+        escritos = 0;
+        for (int j = 0; j < banco->numeroDeRecursos; j++) {
+            escritos += fprintf(file, "%d ", banco->allocation[i][j]);
+        }
+        while (escritos < larguraAllocation) {
+            fprintf(file, " ");
+            escritos++;
+        }
+        fprintf(file, "|   ");
+        //need
+        for (int j = 0; j < banco->numeroDeRecursos; j++) {
+            fprintf(file, "%d ", banco->need[i][j]);
+        }
+        fprintf(file, "\n");
+    }
+
+    fprintf(file, "AVAILABLE ");
+    for (int j = 0; j < banco->numeroDeRecursos; j++) {
+        fprintf(file, "%d ", banco->available[j]);
+    }
+    fprintf(file, "\n");
+}

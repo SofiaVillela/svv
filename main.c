@@ -88,6 +88,8 @@ int main(int argc, char **argv) {
     printf("Teste 6: retorno %d (esperado 1)\n", resultado);
     printf("  available: %d %d %d (esperado 5 4 3, sem mudança)\n",
            banco.available[0], banco.available[1], banco.available[2]);
+
+    imprimirEstado(&banco, stdout);
     liberarBanco(&banco);   
     return 0;
 }

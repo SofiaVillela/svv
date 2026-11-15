@@ -1,5 +1,6 @@
 #ifndef BANQUEIRO_H
 #define BANQUEIRO_H
+#include <stdio.h>
 
 typedef struct {
     int numeroDeRecursos;
@@ -15,5 +16,6 @@ void liberarBanco(Banco *banco);
 int estadoSeguro(Banco *banco);
 int request(Banco *banco, int idCliente, int *recursosPedidos);
 int release(Banco *banco, int idCliente, int *recursosPedidos);
+void imprimirEstado(Banco *banco, FILE *file);
 
 #endif
