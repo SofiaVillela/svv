@@ -37,7 +37,7 @@ int *lerArgumentos(int argc, char **argv) {
     return available;
 }
 
-int contarClientes(const char *nomeArquivo) {
+int contarClientes(const char *nomeArquivo, int quantidadeTipoRecurso) {
     FILE *file = fopen(nomeArquivo, "r");
     if (file == NULL) {
         fprintf(stderr, "Erro: não foi possível abrir %s.\n", nomeArquivo);
@@ -46,13 +46,36 @@ int contarClientes(const char *nomeArquivo) {
 
     char linha[1000];
     int contadorClientes = 0;
+
     while (fgets(linha, sizeof(linha), file) != NULL) {
+
         linha[strcspn(linha, "\r\n")] = '\0';
         if (linha[0] == '\0') {
             continue;
         }
+
         contadorClientes++;
-        printf("%s\n", linha);
+        char *token = strtok(linha, ",");
+        int colunas = 0;
+
+        while(token != NULL){
+            char *fim;
+            int valor = strtol(token, &fim, 10);
+
+            if(fim == token|| *fim != '\0'||valor < 0){
+                fprintf(stderr, "Erro: %s é invalido", token);
+                fclose(file);
+                return -1;
+            }
+
+            token = strtok(NULL, ",");
+            colunas++;
+        }
+        if(colunas != quantidadeTipoRecurso){
+            fprintf(stderr, "Erro quantidade de colunas != recuros\n"); 
+            fclose(file);
+            return -1;
+        }
     }
     fclose(file);
 

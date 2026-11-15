@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
         return 1;
     }
 
-    int quantidadeClientes = contarClientes("customer.txt");
+    int quantidadeClientes = contarClientes("customer.txt",quantidadeTipoRecurso);
     if (quantidadeClientes == -1) {
         free(available);
         return 1;
