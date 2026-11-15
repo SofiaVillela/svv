@@ -28,7 +28,33 @@ int main(int argc, char **argv) {
         free(banco.available);
         return 1;
     }
+    if(preencheMatriz("customer.txt",&banco) == 1) {
+        free(banco.available);
+        return 1;
+    }
+    printf("MAXIMUM\n");
+    for (int i = 0; i < banco.numeroDeClientes; i++) {
+        for (int j = 0; j < banco.numeroDeRecursos; j++) {
+            printf("%d ", banco.maximum[i][j]);
+        }
+        printf("\n");
+    }
 
+    printf("ALLOCATION\n");
+    for (int i = 0; i < banco.numeroDeClientes; i++) {
+        for (int j = 0; j < banco.numeroDeRecursos; j++) {
+            printf("%d ", banco.allocation[i][j]);
+        }
+        printf("\n");
+    }
+
+    printf("NEED\n");
+    for (int i = 0; i < banco.numeroDeClientes; i++) {
+        for (int j = 0; j < banco.numeroDeRecursos; j++) {
+            printf("%d ", banco.need[i][j]);
+        }
+        printf("\n");
+    }
     liberarBanco(&banco);
     return 0;
 }

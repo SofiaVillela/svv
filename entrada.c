@@ -94,3 +94,34 @@ int contarClientes(const char *nomeArquivo, int quantidadeTipoRecurso) {
 
     return contadorClientes;
 }
+
+int preencheMatriz(const char*nomeArquivo, Banco *banco){
+    FILE *file = fopen(nomeArquivo, "r");
+    if (file == NULL) {
+        fprintf(stderr, "Erro: não foi possível abrir %s.\n", nomeArquivo);
+        return 1;
+    }
+    char linha[1000];
+    int cliente = 0;
+
+    while (fgets(linha, sizeof(linha), file) != NULL) {
+        int recurso = 0;
+        linha[strcspn(linha, "\r\n")] = '\0';
+        if (linha[0] == '\0') {
+            continue;
+        }
+        
+        char *token = strtok(linha, ",");
+        while(token != NULL){
+            banco->maximum[cliente][recurso]= strtol(token, NULL, 10);
+            banco->allocation[cliente][recurso] = 0;
+            banco->need[cliente][recurso] = banco->maximum[cliente][recurso] ;
+
+            token = strtok(NULL, ",");
+            recurso++;
+        }
+        cliente++;
+    }
+    fclose(file);
+    return 0;
+}
