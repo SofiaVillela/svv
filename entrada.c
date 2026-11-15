@@ -130,7 +130,7 @@ int validarComandos(const char *nomeArquivo, Banco *banco){
     FILE *file = fopen(nomeArquivo, "r");
     if (file == NULL) {
         fprintf(stderr, "Erro: não foi possível abrir %s.\n", nomeArquivo);
-        return -1;
+        return 1;
     }
 
     char linha[1000];
@@ -207,5 +207,70 @@ int validarComandos(const char *nomeArquivo, Banco *banco){
     }
 
     fclose(file);
+    return 0;
+}
+
+int executarComandos(const char *nomeArquivo, Banco *banco){
+    FILE *file = fopen(nomeArquivo, "r");
+    if (file == NULL) {
+        fprintf(stderr, "Erro: não foi possível abrir %s.\n", nomeArquivo);
+        return 1;
+    }
+
+    FILE *resultado = fopen("result.txt", "w");
+    if (resultado == NULL) {
+        fprintf(stderr, "Erro: não foi possível criar result.txt.\n");
+        fclose(file);
+        return 1;
+    }
+
+    int *valores = malloc(banco->numeroDeRecursos * sizeof(int));
+    if (valores == NULL) {
+        fprintf(stderr, "Erro na alocação de memória.\n");
+        fclose(file);
+        fclose(resultado);
+        return 1;
+    }
+    char linha[1000];
+
+    while (fgets(linha, sizeof(linha), file) != NULL) {
+
+        linha[strcspn(linha, "\r\n")] = '\0';
+        if (linha[0] == '\0') {
+            continue;
+        }
+
+        char *token = strtok(linha, " ");
+        if (token == NULL) {
+            continue;   // linha só com espaços
+        }
+
+        if(strcmp(token, "*") == 0){
+            imprimirEstado(banco, resultado);
+            continue;
+        }
+        int ehRequest = (strcmp(token, "RQ") == 0);
+        token = strtok(NULL, " ");
+    
+        int idCliente = strtol(token, NULL, 10);
+
+        for(int i = 0; i < banco->numeroDeRecursos; i++){
+            token = strtok(NULL, " ");
+            valores[i] = strtol(token, NULL, 10);
+        }
+        int retorno;
+        if(ehRequest) retorno =  request(banco, idCliente, valores);
+        else retorno = release(banco, idCliente, valores);
+        
+                // DEBUG: apagar depois
+        printf("%s cliente %d valores:", ehRequest ? "RQ" : "RL", idCliente);
+        for (int j = 0; j < banco->numeroDeRecursos; j++) {
+            printf(" %d", valores[j]);
+        }
+        printf(" -> retorno %d\n", retorno);
+    }
+    fclose(file);
+    fclose(resultado);
+    free(valores);
     return 0;
 }
