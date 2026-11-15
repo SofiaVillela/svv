@@ -36,6 +36,8 @@ int main(int argc, char **argv) {
         liberarBanco(&banco);
         return 1;
     }
+    int teste = estadoSeguro(&banco);
+    printf(" %d \n", teste);
     liberarBanco(&banco);
     return 0;
 }

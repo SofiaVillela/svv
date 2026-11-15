@@ -12,5 +12,6 @@ typedef struct {
 
 int alocarMatrizes(Banco *banco);
 void liberarBanco(Banco *banco);
+int estadoSeguro(Banco *banco);
 
 #endif

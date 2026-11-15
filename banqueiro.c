@@ -73,3 +73,56 @@ void liberarBanco(Banco *banco) {
     banco->need = NULL;
     banco->available = NULL;
 }
+
+int estadoSeguro(Banco *banco){
+    int *work = malloc(banco->numeroDeRecursos * sizeof(int));
+    int *finish = malloc(banco->numeroDeClientes * sizeof(int));
+
+    if(work == NULL || finish == NULL){
+        free(work);
+        free(finish);
+        fprintf(stderr, "Erro ao alocar vetor\n");
+        return 0; //inseguro
+    }
+
+    for(int i = 0; i < banco->numeroDeRecursos; i++){
+        work[i] = banco->available[i];
+    }
+    for(int i = 0; i < banco->numeroDeClientes; i++){
+        finish[i] = 0;
+    }
+
+    int alguemTerminou = 1; 
+    while(alguemTerminou){
+        alguemTerminou = 0;
+        for(int i = 0; i < banco->numeroDeClientes; i++){
+            if(finish[i] == 1){
+                continue;
+            }
+            int quantidadeMenores = 0;
+            for(int j = 0; j < banco->numeroDeRecursos; j++){
+                if(work[j] >= banco->need[i][j]){
+                    quantidadeMenores++;
+                }
+            }
+            if(quantidadeMenores == banco->numeroDeRecursos){
+                for(int j = 0; j< banco->numeroDeRecursos; j++){
+                    work[j] = work[j] + banco->allocation[i][j];
+                }
+                finish[i] = 1;
+                alguemTerminou = 1;
+            }
+        }
+    }
+    int seguro =0;
+    for(int i = 0; i < banco->numeroDeClientes; i++){
+        if(finish[i] == 1) seguro++;
+    }
+    int retornar = 0  ;
+    if(seguro == banco->numeroDeClientes) retornar = 1;
+
+    free(work);
+    free(finish);
+   
+    return retornar;
+}
